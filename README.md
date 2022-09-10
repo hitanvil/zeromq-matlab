@@ -7,9 +7,9 @@ Tested with ZeroMQ 4.0.5 on MATLAB R2015a. TCP needs two different hosts.
 
 Requires ZeroMQ to be installed first (see below)
 
-To build, run "make"
+To build, run "make" in Matlab. Add the folder which zmq.mexa64 is in to Matlab path.
 
-To test, run "make test" if MATLAB can be called from the commandline.
+To test, run "make test" if MATLAB can be called from the commandline. Or just run test_zmq in Matlab GUI.
 
 
 Installing ZeroMQ 3.2.2 on Ubuntu 12.04
@@ -21,3 +21,7 @@ In the root of the extracted archive, run the following commands:
 2. make
 3. sudo make install
 4. sudo ldconfig
+
+Changing List
+=============
+Add build configure for Linux.
